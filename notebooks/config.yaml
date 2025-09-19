@@ -1,0 +1,12 @@
+docs_root: "docs"
+dita_roots:
+  - "docs/maps"
+allow_external_http_checks: false
+max_raster_size_mb: 5
+svg:
+  forbid_scripts: true
+  forbid_external_refs: true
+  max_data_uri_kb: 1024
+severity:
+  missing_fragment: error
+  svg_missing_viewbox: warn
